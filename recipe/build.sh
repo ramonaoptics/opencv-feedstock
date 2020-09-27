@@ -8,7 +8,7 @@ MACHINE_STR=$(uname -m)
 # https://gitlab.kitware.com/cmake/cmake/blob/master/Modules/FindPNG.cmake#L55
 ln -s $PREFIX/include/libpng16 $PREFIX/include/libpng
 
-QT="5"
+QT="0"
 V4L="1"
 
 if [ "${SHORT_OS_STR:0:5}" == "Linux" ]; then
