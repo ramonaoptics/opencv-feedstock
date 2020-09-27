@@ -76,7 +76,7 @@ requirements:
     - libwebp
     - harfbuzz                       # [unix]
     - libpng
-    - ffmpeg                         # [not win]
+    # - ffmpeg                         # [not win]
     - qt 5.12.1                      # [not osx and not aarch64 and not ppc64le]
     - liblapacke
     - freetype

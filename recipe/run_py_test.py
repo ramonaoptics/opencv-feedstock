@@ -4,6 +4,7 @@ import numpy as np
 import cv2
 
 
+@unittest.skip('ffmpeg support disabled')
 @unittest.skipIf(platform.system() == 'Windows',
                  'FFMPEG currently not built on Windows')
 class TestVideoRead(unittest.TestCase):
